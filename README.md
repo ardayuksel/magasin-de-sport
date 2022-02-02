@@ -1,70 +1,120 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# What 🚀
 
-## Available Scripts
+A simple application created with ReactJS. In this application, users, their posts and user details are called from API endpoints. In order to make a better structure, some libraries are used. The main goal of this project is challenging and measuring my technical skills for the job opportunities.
 
-In the project directory, you can run:
+# Why 😏
 
-### `npm start`
+- Challenging about Frontend Development
+- To challenge myself
+- To have better carrier opportunities
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# See 👀
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [ReactJS]
+- [Redux]
+- [Redux-thunk]
+- [React-router]
+- [Horizontally Masonry Layout]
+- [CSS BEM Methodology]
+- [CSS Flexbox]
+- [Axios]
+- [React Hooks]
+- [Responsive UI]
+- [DOM Manipulation with Vanilla JS]
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Optionals ❓
 
-### `npm run build`
+- [CSS Grid]
+- [Redux-Toolkit]
+- [Context API]
+- [Material UI], [React Bootstrap] etc. for the better UI optimization
+- Seperated and [combined reducers]
+- [Typescript]
+- [Footer] section
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Some Notes  ✍️
 
-### `npm run eject`
+- Due to disabled billing account on Google Maps API, map service is not working optimizated. So, [Google Maps Places Search] according to address isn't used here.
+- If result data would had latitude and longitude data, I would mark the user coordinates on map.
+- PageNotFound page has been added, except for the documentation.
+- app-id has been hidden because of the security cases with dotenv. If you want to run the application on your machine. Please get your own app-id from https://dummyapi.io/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[ReactJS]: <https://833250.smushcdn.com/1694534/wp-content/uploads/2021/06/12-1.png>
+[Redux]: <https://redux.js.org/>
+[Redux-thunk]: <https://github.com/reduxjs/redux-thunk>
+[React-router]: <https://reactrouter.com/>
+[Horizontally Masonry Layout]: <https://css-tricks.com/piecing-together-approaches-for-a-css-masonry-layout/>
+[CSS BEM Methodology]: <http://getbem.com/introduction/>
+[CSS Flexbox]: <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout>
+[Axios]: <https://axios-http.com/docs/intro>
+[React Hooks]: <https://reactjs.org/docs/hooks-intro.html>
+[Responsive UI]: <https://www.w3schools.com/css/css_rwd_intro.asp>
+[DOM Manipulation with Vanilla JS]: <https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents>
+[CSS Grid]: <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout>
+[Redux-Toolkit]: <https://redux-toolkit.js.org/>
+[Context API]: <https://reactjs.org/docs/context.html>
+[Material UI]: <https://mui.com/>
+[React Bootstrap]: <https://react-bootstrap.github.io/>
+[combined reducers]: <https://redux.js.org/api/combinereducers>
+[Typescript]: <https://www.typescriptlang.org/>
+[Footer]: <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer>
+[Google Maps Places Search]: <https://developers.google.com/maps/documentation/places/web-service/search>
+## Authors 💪
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [@ardayuksel](https://www.github.com/ardayuksel)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Run Locally 🛠
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone the project
 
-### Code Splitting
+```bash
+  git clone https://github.com/ardayuksel/magasin-de-sport.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Go to the project directory
 
-### Analyzing the Bundle Size
+```bash
+  cd magasin-de-sport
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install dependencies
 
-### Making a Progressive Web App
+```bash
+  npm install redux redux-thunk react-router react-redux google-maps-react dotenv axios react-router-dom
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Start the server
 
-### Advanced Configuration
+```bash
+  npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Demo 🖥
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Screenshots
 
-### `npm run build` fails to minify
+![screenshot-1](https://user-images.githubusercontent.com/22565318/152105211-329996b5-4eb1-4b0c-ac85-f8657ce51b38.png)
+-
+![screenshot-2](https://user-images.githubusercontent.com/22565318/152105222-30087f5e-d1af-4149-a387-4995694d7038.png)
+-
+![screenshot-3](https://user-images.githubusercontent.com/22565318/152105227-eb9896c0-46a7-4017-8625-1cd3e231a83b.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Screen Recordings
+
+- Masonry Layout Structure
+
+https://user-images.githubusercontent.com/22565318/152105338-f41a38a8-1dc3-4ac2-b0ff-1b214b0be722.mov
+
+- General Project View
+
+https://user-images.githubusercontent.com/22565318/152105356-8706efe5-1dde-447e-aac3-735878fc9fbb.mov
+
