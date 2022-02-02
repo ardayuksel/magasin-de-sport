@@ -1,0 +1,13 @@
+.users {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 1000px) {
+  .users {
+    justify-content: center;
+    width: 100%;
+  }
+}

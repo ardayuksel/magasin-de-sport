@@ -1,0 +1,35 @@
+/* Calculated 4 cards per row in max size */
+.userCard {
+  width: 230px;
+  min-height: 350px;
+  height: auto;
+  background-color: white;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.15);
+}
+.userCard img {
+  width: 100%;
+}
+.userCard h1 {
+  font-weight: bold;
+  font-size: 18px;
+}
+.userCard > * {
+  margin-bottom: 18px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+.userCard a {
+  color: purple;
+}
+@media screen and (max-width: 660px) {
+  .userCard {
+    width: 85%;
+  }
+}

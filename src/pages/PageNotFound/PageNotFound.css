@@ -1,0 +1,20 @@
+.page-not-found {
+  height: calc(100vh - 66px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-not-found h1 {
+  position: relative;
+  font-size: 60px;
+  font-weight: bold;
+  padding: 10px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+@media screen and (max-width: 968px) {
+  .page-not-found h1 {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,31 @@
+.posts::before,
+.posts::after {
+  content: "";
+  width: 0;
+  flex-basis: 100%;
+  order: 2;
+}
+
+.posts {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin: auto;
+  max-width: 968px;
+}
+@media screen and (max-width: 968px) {
+  .posts {
+    width: 80%;
+    height: 100%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: inherit;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .posts {
+    width: 80%;
+    flex-flow: row wrap;
+  }
+}

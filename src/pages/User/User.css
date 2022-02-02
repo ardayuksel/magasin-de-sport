@@ -1,0 +1,59 @@
+.user {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  max-width: 968px;
+  padding: 24px;
+}
+.user__image-container {
+  width: 100%;
+}
+.user__image-container img {
+  max-width: 300px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.user__information-container {
+  width: 100%;
+}
+.user__information-container > * {
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+.user__information-container h2 {
+  font-weight: bold;
+}
+.user__information-container h2 span {
+  font-weight: normal;
+  display: inline-block;
+  word-wrap: break-word;
+  max-width: 100%;
+}
+.user__map-container {
+  position: relative;
+  width: 100%;
+}
+.user__map-container h1 {
+  font-weight: bold;
+}
+.user__map-container > * {
+  margin-bottom: 8px;
+}
+#googleMap {
+  position: relative;
+  height: 90%;
+  min-height: 200px;
+  width: 100%;
+}
+@media screen and (max-width: 968px) {
+  .user {
+    flex-direction: column;
+    width: 85%;
+  }
+  .user__image-container img {
+    max-width: 100%;
+  }
+}
